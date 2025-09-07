@@ -11,7 +11,7 @@ public class OrderedArray {
     public void insert(int x) {
         int i;
         for (i = 0; i < arr.length; i++) {
-            if (arr[i] > x || arr[i] == null)
+            if (arr[i] == null || arr[i] > x)
                 break;
         }
         if (i == arr.length) {

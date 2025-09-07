@@ -22,7 +22,7 @@ public class UnorderedArray {
     // Time complexity: O(n)
     public boolean delete(int x) {
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == x && arr[i] != null) {
+            if (arr[i] != null && arr[i] == x) {
                 arr[i] = null;
                 return true;
             }
@@ -34,7 +34,7 @@ public class UnorderedArray {
     // Time complexity: O(n)
     public int find(int x) {
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == x && arr[i] != null) {
+            if (arr[i] != null && arr[i] == x) {
                 return i;
             }
         }
