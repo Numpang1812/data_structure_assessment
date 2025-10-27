@@ -1,3 +1,4 @@
+package LinkedList;
 /**
  * A generic node class for a singly linked list.
  * Each Link holds data of type T and a reference to the next Link in the list.

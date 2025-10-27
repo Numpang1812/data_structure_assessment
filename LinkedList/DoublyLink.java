@@ -1,3 +1,4 @@
+package LinkedList;
 /**
  * A generic node class for a doubly linked list.
  * Each DoublyLink holds data of type T and references to both the next and previous links.
